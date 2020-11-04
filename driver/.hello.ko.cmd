@@ -1,0 +1,1 @@
+cmd_/home/chakim/Documents/exp/driver/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/chakim/Documents/exp/driver/hello.ko /home/chakim/Documents/exp/driver/hello.o /home/chakim/Documents/exp/driver/hello.mod.o;  true

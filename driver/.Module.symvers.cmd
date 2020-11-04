@@ -1,0 +1,1 @@
+cmd_/home/chakim/Documents/exp/driver/Module.symvers := sed 's/ko$$/o/' /home/chakim/Documents/exp/driver/modules.order | scripts/mod/modpost  -a   -o /home/chakim/Documents/exp/driver/Module.symvers -e -i Module.symvers   -T -
